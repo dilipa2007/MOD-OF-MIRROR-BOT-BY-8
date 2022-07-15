@@ -142,16 +142,16 @@ try:
 except:
     pass
 try:
-    BOT_TOKEN = getConfig('BOT_TOKEN')
+    BOT_TOKEN = getConfig(5411017939:AAFlVYz1t44H7JPhp3c_-wxZ29yjWs7D1jA)
     parent_id = getConfig('GDRIVE_FOLDER_ID')
     DOWNLOAD_DIR = getConfig('DOWNLOAD_DIR')
     if not DOWNLOAD_DIR.endswith("/"):
         DOWNLOAD_DIR = DOWNLOAD_DIR + '/'
     DOWNLOAD_STATUS_UPDATE_INTERVAL = int(getConfig('DOWNLOAD_STATUS_UPDATE_INTERVAL'))
-    OWNER_ID = int(getConfig('OWNER_ID'))
+    OWNER_ID = int(getConfig(1884657461))
     AUTO_DELETE_MESSAGE_DURATION = int(getConfig('AUTO_DELETE_MESSAGE_DURATION'))
-    TELEGRAM_API = getConfig('TELEGRAM_API')
-    TELEGRAM_HASH = getConfig('TELEGRAM_HASH')
+    TELEGRAM_API = getConfig(16944993)
+    TELEGRAM_HASH = getConfig(8adb139217ddbf5a2e637499dd57066a)
 except:
     log_error("One or more env variables missing! Exiting now")
     exit(1)
